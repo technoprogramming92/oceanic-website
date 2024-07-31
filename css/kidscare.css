@@ -997,12 +997,12 @@ ul#mainmenu .menu-panel ul.columns > li a .menu_icon { display: none; }
     -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -ms-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out;
 }
 .topWrap .topMenuStyleLine > ul > li > a .menu_icon {display: none;}
-.topWrap .topMenuStyleLine > ul > li:hover > a {color: #ffffff;}
-.topWrap .topMenuStyleLine > ul > li > a:hover {background-color: #1BB4B9; color: #ffffff;}
+.topWrap .topMenuStyleLine > ul > li:hover > a {color: #ffffff; background-color: #84e1f5;}
+.topWrap .topMenuStyleLine > ul > li > a:hover {background-color: #84e1f5; color: #ffffff;}
 .topWrap .topMenuStyleLine > ul > li ul li ul {border-top: none; padding-top: 4px; margin-top: -5px;}
 
-.topWrap .topMenuStyleLine > ul > li.current-menu-ancestor > a {background-color: #1BB4B9; color: #ffffff;}
-.topWrap .topMenuStyleLine > ul > li ul li.current-menu-item > a {background:#fff; color: }
+.topWrap .topMenuStyleLine > ul > li.current-menu-ancestor > a {background-color: #13bce0; color: #ffffff;}
+.topWrap .topMenuStyleLine > ul > li ul li.current-menu-item > a {background:#fff; color: #13bce0}
 
 /* menu animation */
 @-webkit-keyframes bounceIn {
