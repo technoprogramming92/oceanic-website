@@ -4909,3 +4909,13 @@ Animation
     -webkit-animation-name: pulse;
     animation-name: pulse;
 }
+
+.text_justify{
+    text-align:justify;
+    font-size: 20px;
+}
+
+.text_big{
+    font-size: 28px; 
+    line-height: normal;
+}
