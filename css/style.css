@@ -4919,3 +4919,14 @@ Animation
     font-size: 28px; 
     line-height: normal;
 }
+
+.big-btn a{
+    padding : 5px 40px;
+}
+
+@media screen and (max-width: 479px) {
+    .contactFooter img {
+        height: 90px;
+    }
+}
+
