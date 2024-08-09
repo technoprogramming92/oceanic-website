@@ -1601,7 +1601,7 @@
 
 
 	.contactFooter .logo { font-size: 32px; padding-bottom:18px; }
-	.contactFooter .logo img  {  height: 32px; }
+	.contactFooter .logo img  {  height: auto; }
 	.contactFooter .contactShare ul li a span, .contactFooter .contactShare ul li a { width: 32px; height:32px; background-size: 32px 64px; }	
 	.contactFooter .contactShare ul li a span {  background-position: 0 -32px; }
 	.contactFooter .contactShare ul li {  padding: 0 4px 12px; }	

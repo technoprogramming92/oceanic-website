@@ -1128,7 +1128,7 @@ header.menu_right .logo_slogan { display:none; }
 
 
 /*openResponsiveMenu*/
-.openResponsiveMenu {display: none; margin: 0; height: 35px; line-height: 35px; width: 100%; border-top: 1px solid rgba(41, 41, 41, 0.2); text-transform: uppercase; color: #fff; text-align: center; clear:both; font-weight: 700;}
+.openResponsiveMenu {display: none; margin: 0; height: 35px; line-height: 35px; width: 100%;  text-transform: uppercase; color: #fff; text-align: center; clear:both; font-weight: 700;}
 .openResponsiveMenu:hover {color: #fff;}
 .responsive_menu .openResponsiveMenu {display: block;}
 .responsive_menu ul#mainmenu li.menu-item-has-children a { margin-right: 0 !important; border-radius: 0;}
@@ -4913,6 +4913,11 @@ Animation
 .text_justify{
     text-align:justify;
     font-size: 20px;
+    line-height:normal;
+}
+
+.tj{
+    text-align: justify;
 }
 
 .text_big{
@@ -4924,9 +4929,99 @@ Animation
     padding : 5px 40px;
 }
 
-@media screen and (max-width: 479px) {
-    .contactFooter img {
-        height: 90px;
-    }
+/* Home tab */
+#circle_logo_row {
+    display: flex;
+    justify-content: center; /* This centers the entire row of logos */
+    align-items: center; /* This centers logos vertically within the row */
+    flex-direction: row;
+    gap: 20px; /* Optional: Adjust the spacing between logos if needed */
 }
 
+.b_points{
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 1023px) {
+    /* Home logo row */
+    #circle_logo_row {
+        flex-direction: column; /* Change layout to a vertical stack */
+        justify-content: center; /* Center logos vertically */
+        align-items: center; /* Center logos horizontally */
+    }
+    /* Nav Logo */
+    .topWrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center the logo and menu horizontally */
+    }
+
+    .mainmenu_area {
+        width: 100%; /* Ensure the area takes full width */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center the content */
+    }
+
+    .logo.logo_left {
+        order: 1; /* Move the logo above the menu */
+        text-align: center; /* Center the logo */
+    }
+
+    .openResponsiveMenu {
+        order: 2; /* Position the hamburger menu below the logo */
+        margin-top: 10px; /* Add space between the logo and the menu */
+    }
+
+    .menuTopWrap {
+        order: 3; /* Ensure the navigation menu stays below the hamburger menu */
+        width: 100%; /* Make sure the menu is full-width if needed */
+    }
+    
+       
+}
+
+@media screen and (max-width: 1023px) {
+    /* Home logo row */
+    #circle_logo_row {
+        flex-direction: column; /* Change layout to a vertical stack */
+        justify-content: center; /* Center logos vertically */
+        align-items: center; /* Center logos horizontally */
+    }
+    /* Nav Logo */
+    .topWrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center the logo and menu horizontally */
+    }
+
+    .mainmenu_area {
+        width: 100%; /* Ensure the area takes full width */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center the content */
+    }
+
+    .logo.logo_left {
+        order: 1; /* Move the logo above the menu */
+        text-align: center; /* Center the logo */
+    }
+
+    .openResponsiveMenu {
+        order: 2; /* Position the hamburger menu below the logo */
+        margin-top: 10px; /* Add space between the logo and the menu */
+    }
+
+    .menuTopWrap {
+        order: 3; /* Ensure the navigation menu stays below the hamburger menu */
+        width: 100%; /* Make sure the menu is full-width if needed */
+    }
+    
+       
+}
+
+@media screen and (max-width:479px){
+    /* footer */
+    .contactFooter .logo img {
+        height: auto;
+    } 
+}
