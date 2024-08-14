@@ -183,7 +183,7 @@
 									<li class="menu-item menu-item-has-children">
 										<a href="recruitment.html">
 											<!-- <span class="menu_icon icon-thumbs-up"></span> -->
-											Recruitment
+											Employment
 										</a>
 										<!-- <ul class="sub-menu">
 											<li class="menu-item menu-item-has-children">
@@ -262,87 +262,15 @@
 											</li>
 										</ul> -->
 									</li>
+									<li class="menu-item">
+                      <a href="our-team.html"> Our Team </a>
+                    </li>
 									<li class="menu-item menu-item-has-children current-menu-ancestor">
 										<a href="contact.html">
 											<!-- <span class="menu_icon icon-note"></span> -->
 											Contact Us
 										</a>
-										<!-- <ul class="sub-menu">
-											<li class="menu-item menu-item-has-children">
-												<a href="#">Classic Style</a>
-												<ul class="sub-menu">
-													<li class="menu-item">
-														<a href="features-tools-post-formats-n-all-widgets.html">With sidebar</a>
-													</li>
-													<li class="menu-item">
-														<a href="portfolio-blog-classic-without-sidebar.html">Without sidebar</a>
-													</li>
-												</ul>
-											</li>
-											<li class="menu-item menu-item-has-children">
-												<a href="#">Masonry Style</a>
-												<ul class="sub-menu">
-													<li class="menu-item">
-														<a href="blog-masonry-2-columns.html">2 columns</a>
-													</li>
-													<li class="menu-item">
-														<a href="blog-masonry-2-columns-with-sidebar.html">2 columns with sidebar</a>
-													</li>
-													<li class="menu-item">
-														<a href="blog-masonry-3-columns.html">3 columns</a>
-													</li>
-													<li class="menu-item">
-														<a href="blog-masonry-3-columns-with-sidebar.html">3 columns with sidebar</a>
-													</li>
-													<li class="menu-item">
-														<a href="blog-masonry-4-columns.html">4 columns</a>
-													</li>
-												</ul>
-											</li>
-											<li class="menu-item">
-												<a href="blog-timeline.html">Timeline Style</a>
-											</li>
-											<li class="menu-item">
-												<a href="blog-tabs.html">Tabs Style</a>
-											</li>
-											<li class="menu-item menu-item-has-children">
-												<a href="#">Single post</a>
-												<ul class="sub-menu">
-													<li class="menu-item">
-														<a href="blog-single-post-standard.html">Standard Post</a>
-													</li>
-													<li class="menu-item">
-														<a href="blog-single-post-standard-with-sidebar.html">Standard Post with Sidebar</a>
-													</li>
-													<li class="menu-item">
-														<a href="blog-single-post-reviews.html">Reviews Post</a>
-													</li>
-													<li class="menu-item">
-														<a href="blog-single-post-reviews-with-sidebar.html">Reviews Post with Sidebar</a>
-													</li>
-													<li class="menu-item menu-item-has-children">
-														<a href="#">Gallery Post</a>
-														<ul class="sub-menu">
-															<li class="menu-item">
-																<a href="blog-single-post-gallery-standard.html">Standard Gallery</a>
-															</li>
-															<li class="menu-item">
-																<a href="blog-single-post-gallery-theme-styled.html">Theme Styled Gallery</a>
-															</li>
-															<li class="menu-item">
-																<a href="blog-single-post-gallery-theme-slider.html">Theme Slider instead of Gallery</a>
-															</li>
-														</ul>
-													</li>
-													<li class="menu-item">
-														<a href="blog-single-post-video.html">Video Post</a>
-													</li>
-													<li class="menu-item">
-														<a href="blog-single-post-audio.html">Audio Post</a>
-													</li>
-												</ul>
-											</li>
-										</ul> -->
+										
 									</li>
 								</ul>
 							</nav>

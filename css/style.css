@@ -4945,6 +4945,44 @@ Animation
 .b_points{
     margin-bottom: 10px;
 }
+
+#formsTable{
+    display: flex;
+    direction: horizontal;
+    justify-items: center;
+    justify-content: center;
+    vertical-align: auto;
+}
+
+.download {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.download::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px; /* Thickness of the border */
+    background-color: #1bb4b9;
+    transition: width 0.3s ease-in-out;
+    color:#1bb4b9;
+}
+
+.download:hover{
+    color:#1bb4b9;
+}
+.download:hover::after {
+    width: 100%;
+   
+}
+
+
+
 @media screen and (max-width: 1023px) {
     /* Home logo row */
     #circle_logo_row {
@@ -4984,6 +5022,8 @@ Animation
        
 }
 
+
+
 @media screen and (max-width: 1023px) {
     /* Home logo row */
     #circle_logo_row {
@@ -5022,6 +5062,8 @@ Animation
     
        
 }
+
+
 
 @media screen and (max-width:479px){
     /* footer */
@@ -5029,3 +5071,5 @@ Animation
         height: auto;
     } 
 }
+
+
