@@ -928,12 +928,12 @@ b, strong { font-weight:700; }
 .logo .logo_slogan {font-size: 12px; line-height: 12px;}
 .logo .logo_slogan {color: #ea624c;}
 .topWrap .logo {font-size: 36px;}
-.topWrap .logo {height: 52px; /*padding-top: 27px;*/}
-.topWrap .logo img {height: 80px;}
+.topWrap .logo {height: auto; /*padding-top: 27px;*/}
+.topWrap .logo img {height: 100px;}
 /*.sidemenu_wrap .logo img {height: 52px;}*/
 header.menu_right .logo_slogan {display: block;}
-header.fixedTopMenu .topWrap .logo {height: 30px;}
-header.fixedTopMenu .topWrap .logo img {height: 70px;}
+header.fixedTopMenu .topWrap .logo {height: auto;}
+header.fixedTopMenu .topWrap .logo img {height: 90px;}
 header.fixedTopMenu .topWrap .logo .logo_text {line-height: 21px;}
 
 .topWrap .logo.logo_center {height: 35px;}
