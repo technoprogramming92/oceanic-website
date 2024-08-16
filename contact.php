@@ -72,212 +72,61 @@
 	<div class="main_content">
 		<div class="boxedWrap">
 
-			<header class="noFixMenu menu_right without_user_menu">
-				<div class="topWrapFixed"></div>
-				<div class="topWrap">
-					<div class="mainmenu_area">
-						<div class="main with_logo_left">
-							<div class="logo logo_left">
-								<a href="index.html">
-									<img src="images/oceanic-logo-3.png" class="logo_main" alt="">
-									<img src="images/oceanic-logo-3.png" class="logo_fixed" alt="">
-									<span class="logo_slogan"></span>
-								</a>
-							</div>
+		<header class="noFixMenu menu_right without_user_menu">
+          <div class="topWrapFixed"></div>
+          <div class="topWrap">
+            <div class="mainmenu_area">
+              <div class="main with_logo_left">
+                <div class="logo logo_left">
+                  <a href="index.html">
+                    <img
+                      src="images/oceanic-logo-3.png"
+                      class="logo_main"
+                      alt=""
+                    />
+                    <img
+                      src="images/oceanic-logo-3.png"
+                      class="logo_fixed"
+                      alt=""
+                    />
+                    <span class="logo_slogan"></span>
+                  </a>
+                </div>
 
-							<a href="#" class="openResponsiveMenu">Menu</a>
-							<nav role="navigation" class="menuTopWrap topMenuStyleLine">
-								<ul id="mainmenu" class="">
-									<li class="menu-item menu-item-has-children">
-										<a href="index.html">Home</a>
-									</li>
-									<li class="menu-item menu-item-has-children">
-										<a href="about.html">About</a>
-										<!-- <ul class="sub-menu">
-											<li class="menu-item">
-												<a href="headers-standard.html">Standard</a>
-											</li>
-											<li class="menu-item">
-												<a href="headers-transparent.html">Transparent</a>
-											</li>
-											<li class="menu-item">
-												<a href="headers-central-menu.html">Central menu</a>
-											</li>
-											<li class="menu-item">
-												<a href="headers-video.html">Video header</a>
-											</li>
-										</ul> -->
-									</li>
-									<li class="menu-item menu-item-has-children columns custom_view_item">
-										<a href="services.html">
-											<!-- <span class="menu_icon icon-params"> </span> -->
-											Services
-										</a>
-										<!-- <ul class="menu-panel columns">
-											<li>
-												<ul class="custom-menu-style columns sub-menu">
-													<li class="menu-item menu-item-has-children">
-														<a href="#">
-															<span class="menu_icon icon-wrench"> </span>
-															Tools
-															<span class="menu_item_description">Standard theme instruments</span>
-														</a>
-														<ul class="sub-menu">
-															<li class="menu-item">
-																<a href="features-tools-typography.html">Typography</a>
-															</li>
-															<li class="menu-item">
-																<a href="features-tools-shortcodes-accordion.html">Shortcodes</a>
-															</li>
-															<li class="menu-item">
-																<a href="features-tools-post-formats-n-all-widgets.html">Post formats &#038; All widgets</a>
-															</li>
-															<li class="menu-item">
-																<a href="features-tools-events-calendar.html">Events Calendar</a>
-															</li>
-															<li class="menu-item">
-																<a href="features-tools-pricing-tables.html">Pricing Tables</a>
-															</li>
-															<li class="menu-item">
-																<a target="_blank" href="doc/index.html">Documentation</a>
-															</li>
-														</ul>
-													</li>
-													<li class="menu-item menu-item-has-children">
-														<a href="#">
-															<span class="menu_icon icon-doc-inv-1"></span>
-															Pages
-															<span class="menu_item_description">Sample theme pages</span>
-														</a>
-														<ul class="sub-menu">
-															<li class="menu-item">
-																<a href="features-pages-shop.html">Shop page</a>
-															</li>
-															<li class="menu-item">
-																<a href="features-pages-product-page.html">Product page</a>
-															</li>
-															<li class="menu-item">
-																<a href="features-pages-about-us.html">About Us</a>
-															</li>
-															<li class="menu-item">
-																<a href="features-pages-contact-us.html">Contact Us</a>
-															</li>
-															<li class="menu-item">
-																<a href="features-pages-donation.html">Donation</a>
-															</li>
-															<li class="menu-item">
-																<a href="features-pages-faq.html">FAQ</a>
-															</li>
-															<li class="menu-item">
-																<a href="features-pages-404.html">Page 404</a>
-															</li>
-															<li class="menu-item">
-																<a href="features-pages-under-constraction.html">Under Construction</a>
-															</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-										</ul> -->
-									</li>
-									<li class="menu-item menu-item-has-children">
-										<a href="recruitment.html">
-											<!-- <span class="menu_icon icon-thumbs-up"></span> -->
-											Employment
-										</a>
-										<!-- <ul class="sub-menu">
-											<li class="menu-item menu-item-has-children">
-												<a href="#">Classic Style</a>
-												<ul class="sub-menu">
-													<li class="menu-item">
-														<a href="portfolio-classic-1-column.html">1 columns</a>
-													</li>
-													<li class="menu-item">
-														<a href="portfolio-classic-2-columns.html">2 columns</a>
-													</li>
-													<li class="menu-item">
-														<a href="portfolio-classic-2-columns-with-sidebar.html">2 columns with sidebar</a>
-													</li>
-													<li class="menu-item">
-														<a href="portfolio-classic-3-columns.html">3 columns</a>
-													</li>
-													<li class="menu-item">
-														<a href="portfolio-classic-3-columns-with-sidebar.html">3 columns with sidebar</a>
-													</li>
-													<li class="menu-item">
-														<a href="portfolio-classic-4-columns.html">4 columns</a>
-													</li>
-												</ul>
-											</li>
-											<li class="menu-item menu-item-has-children">
-												<a href="#">Masonry style</a>
-												<ul class="sub-menu">
-													<li class="menu-item">
-														<a href="portfolio-masonry-2-columns.html">2 columns</a>
-													</li>
-													<li class="menu-item">
-														<a href="portfolio-masonry-2-columns-with-sidebar.html">2 columns with sidebar</a>
-													</li>
-													<li class="menu-item">
-														<a href="portfolio-masonry-3-columns.html">3 columns</a>
-													</li>
-													<li class="menu-item">
-														<a href="portfolio-masonry-3-columns-with-sidebar.html">3 columns with sidebar</a>
-													</li>
-													<li class="menu-item">
-														<a href="portfolio-masonry-4-columns.html">4 columns</a>
-													</li>
-												</ul>
-											</li>
-											<li class="menu-item menu-item-has-children">
-												<a href="#">Grid Style</a>
-												<ul class="sub-menu">
-													<li class="menu-item">
-														<a href="portfolio-grid-2-columns.html">2 columns</a>
-													</li>
-													<li class="menu-item">
-														<a href="portfolio-grid-2-columns-with-sidebar.html">2 columns with sidebar</a>
-													</li>
-													<li class="menu-item">
-														<a href="portfolio-grid-3-columns.html">3 columns</a>
-													</li>
-													<li class="menu-item">
-														<a href="portfolio-grid-3-columns-with-sidebar.html">3 columns with sidebar</a>
-													</li>
-													<li class="menu-item">
-														<a href="portfolio-grid-4-columns.html">4 columns</a>
-													</li>
-												</ul>
-											</li>
-											<li class="menu-item menu-item-has-children">
-												<a href="#">Portfolio post</a>
-												<ul class="sub-menu">
-													<li class="menu-item">
-														<a href="portfolio-post-standard.html">Standard</a>
-													</li>
-													<li class="menu-item">
-														<a href="portfolio-post-fullscreen.html">Fullscreen</a>
-													</li>
-												</ul>
-											</li>
-										</ul> -->
-									</li>
-									<li class="menu-item">
-                      <a href="our-team.html"> Our Team </a>
+                <a href="#" class="openResponsiveMenu">Menu</a>
+                <nav role="navigation" class="menuTopWrap topMenuStyleLine">
+                  <ul id="mainmenu" class="">
+                    <li
+                      class="menu-item menu-item-has-children"
+                    >
+                      <a href="index.html">Home</a>
                     </li>
-									<li class="menu-item menu-item-has-children current-menu-ancestor">
-										<a href="contact.html">
-											<!-- <span class="menu_icon icon-note"></span> -->
-											Contact Us
-										</a>
-										
-									</li>
-								</ul>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</header>
+                    <li class="menu-item">
+                      <a href="about.html">About Us</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="services.html"> Services </a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="recruitment.html"> Career </a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="our-team.html">Our Team</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="forms.html">Forms</a>
+                    </li>
+                    <li class="menu-item current-menu-ancestor">
+                      <a href="contact.html">
+                        Contact Us
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </header>
 
 
 
@@ -300,58 +149,95 @@
 														loading="lazy"
 														referrerpolicy="no-referrer-when-downgrade"></iframe>
 												</div>
-												<div class="columns1_2 sc_column_item sc_column_item_2 even">
-													<h1 class="sc_title sc_title_regular">Stay in Touch</h1>
-													<div id="contact-icons">
-														<div class="icon-inner">
-															<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
-																id="phone" width="30" height="30">
-																<path
-																	d="M27.308,20.649l-2.2-2.2a3.521,3.521,0,0,0-4.938-.021,2.152,2.152,0,0,1-2.729.267A15.026,15.026,0,0,1,13.3,14.562a2.181,2.181,0,0,1,.284-2.739A3.521,3.521,0,0,0,13.553,6.9l-2.2-2.2a3.514,3.514,0,0,0-4.961,0l-.633.634c-3.3,3.3-3.053,10.238,3.813,17.1,4.14,4.141,8.307,5.875,11.686,5.875a7.5,7.5,0,0,0,5.418-2.061l.634-.634A3.513,3.513,0,0,0,27.308,20.649ZM25.894,24.2l-.634.634c-2.6,2.6-8.339,2.125-14.276-3.813S4.571,9.34,7.171,6.74L7.8,6.107a1.511,1.511,0,0,1,2.133,0l2.2,2.2a1.511,1.511,0,0,1,.021,2.11,4.181,4.181,0,0,0-.531,5.239,17.01,17.01,0,0,0,4.713,4.706,4.179,4.179,0,0,0,5.231-.517,1.512,1.512,0,0,1,2.118.013l2.2,2.2A1.51,1.51,0,0,1,25.894,24.2Z">
-																</path>
-															</svg>
-															<span>+1 226 700 9373</span>
-														</div>
-														<br>
-														<div class="icon-inner">
-															<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"
-																id="location" height="38" width="38">
-																<g fill="#134563">
-																	<path
-																		d="m32 55.7-.9-1.1c-.6-.8-15.9-18.7-15.9-29.4 0-9.3 7.6-16.8 16.8-16.8S48.8 16 48.8 25.2c0 10.7-15.3 28.7-15.9 29.4l-.9 1.1zm0-45c-8 0-14.4 6.5-14.4 14.4 0 8.4 11.1 22.7 14.4 26.8 3.3-4.1 14.4-18.3 14.4-26.8 0-7.9-6.4-14.4-14.4-14.4z">
-																	</path>
-																	<path
-																		d="M32 31.6c-3.5 0-6.4-2.9-6.4-6.4s2.9-6.4 6.4-6.4 6.4 2.9 6.4 6.4-2.9 6.4-6.4 6.4zm0-10.4c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4z">
-																	</path>
-																</g>
-															</svg>
-															<span>
-																895 Guildwood Boulevard, <br />London, ON N6H 5T1
-															</span>
-														</div>
-														<br>
-														<div class="icon-inner">
-															&nbsp; <svg xmlns="http://www.w3.org/2000/svg"
-																viewBox="0 0 30 30" width="30" height="30" fill="none"
-																stroke="black" stroke-width="2">
-																<rect x="1" y="1" width="28" height="20" rx="3"
-																	ry="3" />
-																<path d="M1 1L15 15L29 1" />
-															</svg>
-
-															<span>
-																&nbsp; info@
-															</span>
-														</div>
-														<br>
-														<div class="icon-inner">
-															<svg fill="#000000" height="38" width="38" version="1.1"
-																id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-																xmlns:xlink="http://www.w3.org/1999/xlink"
-																viewBox="0 0 512 512" xml:space="preserve">
-																<g>
-																	<g>
-																		<path d="M256,0C114.62,0,0,114.62,0,256s114.62,256,256,256s256-114.62,256-256S397.38,0,256,0z M172.211,41.609
+												<div
+                            class="columns1_2 sc_column_item sc_column_item_2 even"
+                          >
+                            <h1 class="sc_title sc_title_regular">
+                              Stay in Touch
+                            </h1>
+                            <div id="contact-icons">
+                              <div class="icon-inner">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 32 32"
+                                  id="phone"
+                                  width="30"
+                                  height="30"
+                                >
+                                  <path
+                                    d="M27.308,20.649l-2.2-2.2a3.521,3.521,0,0,0-4.938-.021,2.152,2.152,0,0,1-2.729.267A15.026,15.026,0,0,1,13.3,14.562a2.181,2.181,0,0,1,.284-2.739A3.521,3.521,0,0,0,13.553,6.9l-2.2-2.2a3.514,3.514,0,0,0-4.961,0l-.633.634c-3.3,3.3-3.053,10.238,3.813,17.1,4.14,4.141,8.307,5.875,11.686,5.875a7.5,7.5,0,0,0,5.418-2.061l.634-.634A3.513,3.513,0,0,0,27.308,20.649ZM25.894,24.2l-.634.634c-2.6,2.6-8.339,2.125-14.276-3.813S4.571,9.34,7.171,6.74L7.8,6.107a1.511,1.511,0,0,1,2.133,0l2.2,2.2a1.511,1.511,0,0,1,.021,2.11,4.181,4.181,0,0,0-.531,5.239,17.01,17.01,0,0,0,4.713,4.706,4.179,4.179,0,0,0,5.231-.517,1.512,1.512,0,0,1,2.118.013l2.2,2.2A1.51,1.51,0,0,1,25.894,24.2Z"
+                                  ></path>
+                                </svg>
+                                <a href="tel:+1 226 700 9373"><span>+1 226 700 9373</span></a>
+                                
+                              </div>
+                              <br />
+                              <div class="icon-inner">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 64 64"
+                                  id="location"
+                                  height="38"
+                                  width="38"
+                                >
+                                  <g fill="#134563">
+                                    <path
+                                      d="m32 55.7-.9-1.1c-.6-.8-15.9-18.7-15.9-29.4 0-9.3 7.6-16.8 16.8-16.8S48.8 16 48.8 25.2c0 10.7-15.3 28.7-15.9 29.4l-.9 1.1zm0-45c-8 0-14.4 6.5-14.4 14.4 0 8.4 11.1 22.7 14.4 26.8 3.3-4.1 14.4-18.3 14.4-26.8 0-7.9-6.4-14.4-14.4-14.4z"
+                                    ></path>
+                                    <path
+                                      d="M32 31.6c-3.5 0-6.4-2.9-6.4-6.4s2.9-6.4 6.4-6.4 6.4 2.9 6.4 6.4-2.9 6.4-6.4 6.4zm0-10.4c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4z"
+                                    ></path>
+                                  </g>
+                                </svg>
+                                <span>
+                                  895 Guildwood Boulevard, <br />London, ON N6H
+                                  5T1
+                                </span>
+                              </div>
+                              <br />
+                              <div class="icon-inner">
+                                &nbsp;
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 30 30"
+                                  width="30"
+                                  height="30"
+                                  fill="none"
+                                  stroke="black"
+                                  stroke-width="2"
+                                >
+                                  <rect
+                                    x="1"
+                                    y="1"
+                                    width="28"
+                                    height="20"
+                                    rx="3"
+                                    ry="3"
+                                  />
+                                  <path d="M1 1L15 15L29 1" />
+                                </svg>
+<a href="mailto: info@oceanicsupportservices.com"><span>
+  &nbsp; info@oceanicsupportservices.com
+</span></a>
+                                
+                              </div>
+                              <br />
+                              <div class="icon-inner">
+                                <svg
+                                  fill="#000000"
+                                  height="38"
+                                  width="38"
+                                  version="1.1"
+                                  id="Layer_1"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                                  viewBox="0 0 512 512"
+                                  xml:space="preserve"
+                                >
+                                  <g>
+                                    <g>
+                                      <path
+                                        d="M256,0C114.62,0,0,114.62,0,256s114.62,256,256,256s256-114.62,256-256S397.38,0,256,0z M172.211,41.609
 			c-24.934,27.119-44.68,66.125-56.755,111.992H49.749C75.179,102.741,118.869,62.524,172.211,41.609z M25.6,256
 			c0-26.999,5.077-52.727,13.662-76.8h70.494c-4.608,24.294-7.356,49.963-7.356,76.8s2.748,52.506,7.347,76.8H39.262
 			C30.677,308.727,25.6,283,25.6,256z M49.749,358.4h65.707c12.083,45.867,31.821,84.872,56.755,111.991
@@ -362,18 +248,18 @@
 			 M268.8,179.2h107.46c4.924,24.166,7.74,49.997,7.74,76.8s-2.816,52.634-7.74,76.8H268.8V179.2z M268.8,485.188V358.4h101.359
 			C350.677,426.948,312.61,476.937,268.8,485.188z M339.789,470.391c24.934-27.127,44.672-66.125,56.755-111.991h65.707
 			C436.821,409.259,393.131,449.476,339.789,470.391z M402.244,332.8c4.608-24.294,7.356-49.963,7.356-76.8
-			s-2.748-52.506-7.347-76.8h70.494c8.576,24.073,13.653,49.801,13.653,76.8c0,27-5.077,52.727-13.662,76.8H402.244z" />
-																	</g>
-																</g>
-															</svg>
-
-															<span>
-																&nbsp; www.example.com
-															</span>
-														</div>
-													</div>
-
-												</div>
+			s-2.748-52.506-7.347-76.8h70.494c8.576,24.073,13.653,49.801,13.653,76.8c0,27-5.077,52.727-13.662,76.8H402.244z"
+                                      />
+                                    </g>
+                                  </g>
+                                </svg>
+<a href="https://www.oceanicsupportservices.com" target="_blank" rel="noopener noreferrer"><span>
+  &nbsp; www.oceanicsupportservices.com
+</span></a>
+                                
+                              </div>
+                            </div>
+                          </div>
 											</div>
 
 										</div>
@@ -425,9 +311,7 @@
 													<h1 class="sc_title sc_title_regular">Business hours</h1>
 													<div class="work_days">
 														<p>
-															Monday &#8211; Friday 9am to 5pm<br />
-															Saturday &#8211; 9am to 2pm<br />
-															Sunday &#8211; Closed
+															&nbsp;We are now open 24 x 7
 														</p>
 													</div>
 												</div>

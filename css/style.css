@@ -4981,6 +4981,32 @@ Animation
    
 }
 
+/* service page custom article css starts*/
+.custom-article {
+    width: 70%; /* Adjust the percentage as needed */
+    margin: 0 auto; /* Centers the article on the page */
+    text-align: center; /* Optional: Centers text within the article */
+}
+
+.custom-article img {
+    width: 100%; /* Make the image take the full width of the article */
+    height: auto; /* Maintain the image's aspect ratio */
+}
+
+.custom-article p,
+.custom-article ul {
+    width: 100%; /* Ensures paragraphs and lists take the full width of the article */
+    text-align: justify; /* Optional: Align text to the left within the paragraph */
+    margin: 0 auto; /* Centers the paragraph within the article */
+}
+
+/* uncomment folliwing if title needed left. default is center. */
+/* .custom-article h3{
+    text-align:left;
+} */
+
+/* service page custom article css ends*/
+
 
 
 @media screen and (max-width: 1023px) {
@@ -5066,6 +5092,23 @@ Animation
 
 
 @media screen and (max-width:479px){
+    .text_justify{
+        font-size: 14px;    
+    }
+    #career_para{
+        font-size: large;
+    }
+    li{
+        font-size: 14px;
+    }
+
+    ol li{
+        font-size: large;
+    }
+
+    .b_points{
+        font-size: large;
+    }
     /* footer */
     .contactFooter .logo img {
         height: auto;
