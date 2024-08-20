@@ -1476,7 +1476,7 @@ textarea.textAreaSize {
 input[type="text"],
 input[type="email"],
 input[type="password"],
-textarea {
+textarea, select {
   font-family: inherit;
   font-size: 14px;
   outline: none;
@@ -11496,6 +11496,61 @@ Animation
 
 /* service page custom article css ends*/
 
+/* refferal form css start */
+.formCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  width: 80%; /* Occupies 60% of the parent container */
+  margin: 0 auto; /* Centers the form horizontally */
+}
+
+.formCenter .container {
+  width: 100%;
+}
+
+.formCenter .columnsWrap {
+  width: 100%;
+}
+
+.formCenter .columns1_3 {
+  width: 100%; /* Make each input take up the full width */
+  margin-bottom: 15px;
+}
+
+.formCenter h1.title {
+  margin-bottom: 20px; /* Space between heading and form */
+}
+
+.formCenter .contact_1 {
+  width: 100%;
+}
+
+.formCenter input,
+.formCenter textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+.textAreaSize {
+  min-height: 150px; /* Adjust height of the textarea */
+}
+
+#referral_form_service{
+  height: 36px;
+  line-height: 36px;
+  width:100%;
+  border-radius: 4px;
+}
+
+#referral_form_submit{
+margin-top:15px;
+
+}
+/* refferal form css ends */
 @media screen and (max-width: 1023px) {
   /* Home logo row */
   #circle_logo_row {
