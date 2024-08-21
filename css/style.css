@@ -11489,6 +11489,9 @@ Animation
   margin: 0 auto; /* Centers the paragraph within the article */
 }
 
+.custom-article ul{
+  margin-left:20px;
+}
 /* uncomment folliwing if title needed left. default is center. */
 /* .custom-article h3{
     text-align:left;
@@ -11620,6 +11623,11 @@ margin-top:15px;
     text-align: justify; /* Optional: Centers text within the article */
   }
   
+  .custom-article p {
+  width: 100%; /* Ensures paragraphs and lists take the full width of the article */
+  text-align: justify; /* Optional: Align text to the left within the paragraph */
+  margin: 0 auto; /* Centers the paragraph within the article */
+}
   
 }
 
@@ -11681,5 +11689,11 @@ margin-top:15px;
   /* footer */
   .contactFooter .logo img {
     height: auto;
+  }
+
+  .custom-article {
+    width: 100%; /* Adjust the percentage as needed */
+    margin: 0 auto; /* Centers the article on the page */
+    text-align: justify; /* Optional: Centers text within the article */
   }
 }
