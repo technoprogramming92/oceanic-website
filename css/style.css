@@ -11595,6 +11595,26 @@ margin-top:15px;
   margin: 0 auto; /* Centers the table horizontally */
 }
 /* refferal form css ends */
+
+/* contact us starts */
+.icon-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon-inner span {
+  vertical-align: middle;
+}
+
+#contact-icons .icon-inner a span {
+  font-size: 20px;
+}
+
+ion-icon {
+font-size: 34px;
+}
+/* contact us ends */
 @media screen and (max-width: 1023px) {
   /* Home logo row */
   #circle_logo_row {
@@ -11653,6 +11673,10 @@ margin-top:15px;
 #formsTable{
   width: 100%;
 }
+
+#contact-icons .icon-inner a span {
+  font-size: 18px;
+}
 }
 @media screen and (max-width: 1023px) {
   /* Home logo row */
@@ -11693,6 +11717,7 @@ margin-top:15px;
   .logo a{
     text-align: center;
   }
+
 }
 
 @media screen and (max-width: 479px) {
