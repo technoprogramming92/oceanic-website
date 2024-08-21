@@ -143,6 +143,13 @@ footer .wave#wave4{
 
 
 
+
+@media screen and (max-width: 479px){
+    footer .menu li a{
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width: 479px){
     footer .social_icon li a{
         font-size: 16px;
