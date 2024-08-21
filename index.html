@@ -101,13 +101,13 @@
                 <div class="tp-caption _bs_slider_title tp-fade skewtorightshort tp-resizeme rs-parallaxlevel-0"
                   data-x="center" data-hoffset="236" data-y="bottom" data-voffset="-397" data-speed="700"
                   data-start="2000" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="words"
-                  data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
+                  data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" id="heading1">
                   Supportive Respite and Counselling
                 </div>
                 <div class="tp-caption _bs_slider_title tp-fade skewtorightshort tp-resizeme rs-parallaxlevel-0"
                   data-x="center" data-hoffset="180" data-y="bottom" data-voffset="-357" data-speed="700"
                   data-start="2500" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="words"
-                  data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
+                  data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" id="heading2">
                   for Your Family’s Well-being
                 </div>
 
@@ -393,25 +393,58 @@
 
   <!--<script type='text/javascript' src='custom_tools/js/_customizer.js'></script>-->
 
-  <script>
-    function adjustAttributes() {
-      const button = document.querySelector('#refBtn1'); // Replace with your button's actual ID
-  
-      if (window.innerWidth <= 1023) {
-        // For mobile screens or specific screen size
-        button.setAttribute('data-hoffset', '-100'); // Adjust this value as needed
-        button.setAttribute('data-voffset', '-40'); // Adjust this value as needed
-      } else {
-        // For desktop screens or larger screens
-        button.setAttribute('data-hoffset', '60');
-        button.setAttribute('data-voffset', '-260');
-      }
+  <!-- Button script -->
+ <!-- Button script -->
+<script>
+  function adjustButtonAttributes() {
+    const button = document.querySelector('#refBtn1'); // Replace with your button's actual ID
+
+    if (window.innerWidth <= 1023) {
+      // For mobile screens or specific screen size
+      button.setAttribute('data-hoffset', '150'); // Adjust this value as needed
+      button.setAttribute('data-voffset', '-180'); // Adjust this value as needed
+    } else {
+      // For desktop screens or larger screens
+      button.setAttribute('data-hoffset', '250');
+      button.setAttribute('data-voffset', '-260');
     }
-  
-    // Call the function on window resize and page load
-    window.addEventListener('resize', adjustAttributes);
-    window.addEventListener('load', adjustAttributes);
-  </script>
+  }
+
+  // Call the function on window resize and page load
+  window.addEventListener('resize', adjustButtonAttributes);
+  window.addEventListener('load', adjustButtonAttributes);
+</script>
+
+<!-- Heading script -->
+<script>
+  function adjustHeadingAttributes() {
+    const heading1 = document.querySelector('#heading1');
+    const heading2 = document.querySelector('#heading2');
+
+    if (window.innerWidth <= 1023) {
+      // For mobile screens or specific screen size
+      heading1.setAttribute('data-hoffset', '100'); // Adjust this value as needed
+      heading1.setAttribute('data-voffset', '-200'); // Adjust this value as needed
+
+      heading2.setAttribute('data-hoffset', '100'); // Align with heading1
+      heading2.setAttribute('data-voffset', '-170'); // Adjust to be aligned with heading1 and up
+    } else {
+      // For desktop screens or larger screens
+      heading1.setAttribute('data-hoffset', '280');
+      heading1.setAttribute('data-voffset', '-397');
+
+      heading2.setAttribute('data-hoffset', '280');
+      heading2.setAttribute('data-voffset', '-357');
+    }
+  }
+
+  // Call the function on window resize and page load
+  window.addEventListener('resize', adjustHeadingAttributes);
+  window.addEventListener('load', adjustHeadingAttributes);
+</script>
+
+
+
   
 </body>
 
