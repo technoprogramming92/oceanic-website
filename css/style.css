@@ -7640,7 +7640,7 @@ input[type="button"],
 .squareButton > a,
 .squareButton > button,
 .squareButton > span {
-  height: 38px;
+  /* height: 38px; */
   line-height: 38px;
   display: block;
   border: 1px solid #ddd;
@@ -11579,6 +11579,21 @@ margin-top:15px;
   display: inline-block;
 }
 
+#formsTable th, #formsTable td{
+  text-align: center;
+  padding:10px;
+  font-size: 18px;
+}
+
+#formsTable th{
+  background: #13bce0;
+  color:#fff;
+}
+
+#formsTable{
+  width: 70%;
+  margin: 0 auto; /* Centers the table horizontally */
+}
 /* refferal form css ends */
 @media screen and (max-width: 1023px) {
   /* Home logo row */
@@ -11629,8 +11644,16 @@ margin-top:15px;
   margin: 0 auto; /* Centers the paragraph within the article */
 }
   
+#formsTable th, #formsTable td{
+  text-align: center;
+  padding:10px;
+  font-size: 16px;
 }
 
+#formsTable{
+  width: 100%;
+}
+}
 @media screen and (max-width: 1023px) {
   /* Home logo row */
   #circle_logo_row {
@@ -11665,6 +11688,10 @@ margin-top:15px;
   .menuTopWrap {
     order: 3; /* Ensure the navigation menu stays below the hamburger menu */
     width: 100%; /* Make sure the menu is full-width if needed */
+  }
+
+  .logo a{
+    text-align: center;
   }
 }
 
