@@ -192,12 +192,10 @@
                   <img src="images/babbysitter-slider-rocket.png" alt="" />
                 </div>
                 <div class="tp-caption _bs_slider_text tp-fade tp-resizeme rs-parallaxlevel-0" data-x="center"
-                  data-hoffset="144" data-y="bottom" data-voffset="-233" data-speed="700" data-start="3900"
-                  data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1"
-                  data-endelementdelay="0.1" data-endspeed="300" data-captionhidden="on">
+                  data-hoffset="144" data-y="bottom" data-voffset="-233" data-captionhidden="on" id="refBtn1">
                   <!-- contact us btn -->
                   <div
-                    class="sc_button sc_button_style_global sc_button_size_huge curveButton squareButton global huge">
+                    class="sc_button sc_button_style_global sc_button_size_huge curveButton squareButton global huge" id="refBtn1">
                     <a href="referral.html" class="Referral Form-Oceanic Support Services.pdf" style="font-size: 15px"
                       target="_blank">send us a referral</a>
                   </div>
@@ -394,6 +392,27 @@
   <script type="text/javascript" src="js/custom/_front.js"></script>
 
   <!--<script type='text/javascript' src='custom_tools/js/_customizer.js'></script>-->
+
+  <script>
+    function adjustAttributes() {
+      const button = document.querySelector('#refBtn1'); // Replace with your button's actual ID
+  
+      if (window.innerWidth <= 1023) {
+        // For mobile screens or specific screen size
+        button.setAttribute('data-hoffset', '-100'); // Adjust this value as needed
+        button.setAttribute('data-voffset', '-40'); // Adjust this value as needed
+      } else {
+        // For desktop screens or larger screens
+        button.setAttribute('data-hoffset', '60');
+        button.setAttribute('data-voffset', '-260');
+      }
+    }
+  
+    // Call the function on window resize and page load
+    window.addEventListener('resize', adjustAttributes);
+    window.addEventListener('load', adjustAttributes);
+  </script>
+  
 </body>
 
 </html>
