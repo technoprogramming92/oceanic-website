@@ -318,7 +318,7 @@
 .sc_pricing_table:after{ content: ''; display: block; height: 0; clear: both;}
 .sc_pricing_table .sc_pricing_columns{ float: left; }
 .sc_pricing_table .sc_pricing_columns ul{ margin: 0; padding: 0; background: #fff; z-index: 1; width: 100%; position: relative; z-index: 1; border: 1px solid #ddd;  }
-.sc_pricing_table .sc_pricing_columns ul li{ list-style: none; display: block; padding: 14px;  color: #888888;  border-top: 1px solid #ddd; height:28px; line-height:18px; overflow:hidden; }
+.sc_pricing_table .sc_pricing_columns ul li{ list-style: none; display: block; padding: 14px;  color: #888888;  border-top: 1px solid #ddd;  line-height:18px; overflow:hidden; }
 .sc_pricing_table .sc_pricing_columns ul li.sc_pricing_united{  border: none; height: 90px; text-align: center; line-height: 33px; padding-top:67px; color: #888888; font-size: 18px; font-weight: 300; }
 .sc_pricing_table .sc_pricing_columns ul li b{ color: #222222; text-transform: uppercase; font-weight: 400;}
 .sc_pricing_table .sc_pricing_columns ul li i{font-size: 12px;}

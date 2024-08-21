@@ -11550,6 +11550,32 @@ Animation
 margin-top:15px;
 
 }
+
+.columnsAnimate li{
+  padding :5px;
+  
+}
+
+/* cell css */
+
+.columnsAnimate {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sc_pricing_data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.download {
+  /* padding: 5px; */
+  display: inline-block;
+}
+
 /* refferal form css ends */
 @media screen and (max-width: 1023px) {
   /* Home logo row */
@@ -11586,6 +11612,15 @@ margin-top:15px;
     order: 3; /* Ensure the navigation menu stays below the hamburger menu */
     width: 100%; /* Make sure the menu is full-width if needed */
   }
+
+
+  .custom-article {
+    width: 100%; /* Adjust the percentage as needed */
+    margin: 0 auto; /* Centers the article on the page */
+    text-align: justify; /* Optional: Centers text within the article */
+  }
+  
+  
 }
 
 @media screen and (max-width: 1023px) {

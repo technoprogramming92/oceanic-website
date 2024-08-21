@@ -9,7 +9,7 @@ body{
     /* display: flex; */
     justify-content: flex-end;
     align-items: flex-end;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* background: #333; */
 }
 footer{
@@ -43,19 +43,19 @@ footer .social_icon li, footer .menu li{
 }
 
 footer .social_icon li a{
-    font-size: 2em;
+    font-size: 1.2em;
     color: #fff;
     margin: 0 10px;
     display: inline-block;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 
-footer .social_icon li a:hover{
+/* footer .social_icon li a:hover{
     transform:translateY(-10px);
-}
+} */
 
 footer .menu li a{
-    font-size: 1.2em;
+    font-size: 18px;
     color: #fff;
     margin: 0 10px;
     display: inline-block;
@@ -137,6 +137,21 @@ footer .wave#wave4{
 }
 
 .small-text{
-    font-size: 2.5Svh;
+    
+    color:#fff;
+}
+
+
+
+@media screen and (max-width: 479px){
+    footer .social_icon li a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 395px){
+    footer .social_icon li a{
+        font-size: 13px;
+    }
 }
 
