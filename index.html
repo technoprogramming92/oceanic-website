@@ -26,6 +26,22 @@
 
   <!--<link rel='stylesheet' href='custom_tools/css/customizer.css' type='text/css' media='all'/>-->
   <link rel="stylesheet" href="css/footer.css">
+  <style>
+    @media screen and (max-width: 1023px) {
+      #refBtn1{
+        margin-left: 90px;
+        
+      }
+
+      #heading2{
+        margin-left: 60px;
+        margin-bottom: 10px;
+      }
+      #family1{
+        margin-left: -70px;
+      }
+    }
+  </style>
 </head>
 
 <body class="home page themerex_body fullscreen top_panel_above theme_skin_kidscare">
@@ -113,7 +129,7 @@
 
                 <div class="tp-caption tp-fade rs-parallaxlevel-3" data-x="center" data-hoffset="-176" data-y="bottom"
                   data-voffset="-126" data-speed="700" data-start="500" data-easing="Power3.easeInOut"
-                  data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
+                  data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" id="family1">
                   <div class="tp-layer-inner-rotation rs-wave" data-speed="2" data-angle="0" data-radius="5"
                     data-origin="50% 50%">
                     <img src="images/home-family-1.png" alt="" data-ww="433" data-hh="391" />
@@ -401,8 +417,8 @@
 
     if (window.innerWidth <= 1023) {
       // For mobile screens or specific screen size
-      button.setAttribute('data-hoffset', '150'); // Adjust this value as needed
-      button.setAttribute('data-voffset', '-180'); // Adjust this value as needed
+      button.setAttribute('data-hoffset', '300'); // Adjust this value as needed
+      button.setAttribute('data-voffset', '30'); // Adjust this value as needed
     } else {
       // For desktop screens or larger screens
       button.setAttribute('data-hoffset', '250');
@@ -423,11 +439,11 @@
 
     if (window.innerWidth <= 1023) {
       // For mobile screens or specific screen size
-      heading1.setAttribute('data-hoffset', '100'); // Adjust this value as needed
-      heading1.setAttribute('data-voffset', '-200'); // Adjust this value as needed
+      heading1.setAttribute('data-hoffset', '260'); // Adjust this value as needed
+      heading1.setAttribute('data-voffset', '-350'); // Adjust this value as needed
 
-      heading2.setAttribute('data-hoffset', '100'); // Align with heading1
-      heading2.setAttribute('data-voffset', '-170'); // Adjust to be aligned with heading1 and up
+      heading2.setAttribute('data-hoffset', '560'); // Align with heading1
+      heading2.setAttribute('data-voffset', '-306'); // Adjust to be aligned with heading1 and up
     } else {
       // For desktop screens or larger screens
       heading1.setAttribute('data-hoffset', '280');
