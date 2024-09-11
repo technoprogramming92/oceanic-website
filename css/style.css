@@ -9614,7 +9614,7 @@ input[type="button"]:active,
   overflow: hidden;
   word-wrap: break-word;
   resize: none;
-  height: 55px;
+  /* height: 55px; */
   box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
@@ -11615,6 +11615,7 @@ ion-icon {
 font-size: 34px;
 }
 /* contact us ends */
+
 @media screen and (max-width: 1023px) {
   /* Home logo row */
   #circle_logo_row {
